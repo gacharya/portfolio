@@ -3,12 +3,12 @@ import * as React from 'react'
 import { maintitle } from '../components/layout.module.css'
 import Layout from '../components/layout'
 
-const IndexPage = () => {
+const PortfolioPage = () => {
   return (
-    <Layout pageTitle='gautham acharya'>
-      <p>main page</p>
+    <Layout pageTitle='portfolio'>
+      <p>portfolio</p>
     </Layout>
   )
 }
 // Step 3: Export your component
-export default IndexPage
+export default PortfolioPage 
