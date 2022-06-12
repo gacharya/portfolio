@@ -8,10 +8,7 @@ const Layout = ({ pageTitle, children }) => {
     <div>
     <div class="topnav">
       <title>gautama</title>
-
-
       <Star class="logo" onClick={() => { window.location.href="/"}}/>
-
     <a href="/about">about</a>
     <a href="/red">portfolio</a>
   </div>
