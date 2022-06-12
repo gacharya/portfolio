@@ -1,12 +1,12 @@
 // Step 1: Import React
 import * as React from 'react'
-import { maintitle } from '../components/layout.module.css'
 import Layout from '../components/layout'
+import three_with_chair from "../images/three_with_chair.jpg"
 
 const IndexPage = () => {
   return (
     <Layout pageTitle='gautham acharya'>
-      <p>main page</p>
+      <img className="homeimg" src={three_with_chair}/> 
     </Layout>
   )
 }

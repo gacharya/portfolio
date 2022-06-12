@@ -1,0 +1,92 @@
+@font-face {
+  font-family: Dihjauti;
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Dihjauti-Regular.otf") format("opentype");
+}
+
+* {
+  color: #8f8c8b;
+  font-family: Dihjauti; 
+}
+/* TOP NAVIGATION BAR */
+
+.topnav {
+  overflow: hidden;
+  padding: 1% 1% 0% 0%; 
+}
+
+.topnav a {
+  float: right;
+
+  text-align: center;
+  padding: 0% 0% 0% 1%;
+  text-decoration: none;
+  font-family: Dihjauti; 
+  font-size: 25px;
+}
+
+.topnav .logo {
+  fill: #8f8c8b;
+  padding: 0% 0px 0px 0%;
+  width: 150px;
+}
+
+.topnav .logo:hover {
+  fill: black; 
+}
+
+.topnav a:hover {
+  color: black;
+}
+
+.homeimg {
+  padding: 0% 15% 0 15%;
+  max-width: 70%;
+}
+
+/* PORTFOLIO NAVIGATION BAR */
+
+.portfolionav {
+  margin: auto;
+  text-align: center;
+  width: 10%;
+  display: flex; 
+  padding: 0 0 20px 0;
+}
+
+.portfolionav a {
+  color: #8f8c8b;
+  text-align: center;
+  padding: 35px 10px 0px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.portfolionav a:hover {
+  color: black;
+}
+
+/* IMAGE GRID */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.col {
+  flex: 20%;
+  max-width: 55%;
+  padding: 0 4px;
+}
+
+.col img {
+  margin-top: 8px;
+  vertical-align: right;
+  width: 100%;
+}
+
+.abouttext {
+  text-align: center;
+}

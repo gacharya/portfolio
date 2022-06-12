@@ -3,5 +3,10 @@ module.exports = {
     title: `Portfolio`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    'gatsby-plugin-svgr',
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+  ],
 }
