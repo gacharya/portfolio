@@ -23,13 +23,13 @@
   padding: 0% 0% 0% 1%;
   text-decoration: none;
   font-family: Dihjauti; 
-  font-size: 25px;
+  font-size: 2vw;
 }
 
 .topnav .logo {
   fill: #8f8c8b;
   padding: 0% 0px 0px 2%;
-  width: 150px;
+  width: 10%; 
 }
 
 .topnav .logo:hover {
@@ -48,11 +48,9 @@
 /* PORTFOLIO NAVIGATION BAR */
 
 .portfolionav {
-  margin: auto;
-  text-align: center;
-  width: 10%;
   display: flex; 
-  padding: 0 0 20px 0;
+  align-items: center; 
+  justify-content: center;
 }
 
 .portfolionav a {
@@ -60,7 +58,7 @@
   text-align: center;
   padding: 35px 10px 0px 10px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2vw;
 }
 
 .portfolionav a:hover {
@@ -87,6 +85,20 @@
   width: 100%;
 }
 
+.aboutsection {
+  max-width: 50%;
+  padding: 0% 25% 0% 25%;
+}
+
 .abouttext {
+  padding: 0% 25% 0% 25%;
   text-align: center;
+}
+
+.links {
+  display: flex;
+}
+
+.instagram {
+  padding: 0% 50% 0% 50%;
 }
