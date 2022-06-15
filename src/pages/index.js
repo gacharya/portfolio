@@ -1,12 +1,13 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
-import three_with_chair from "../images/three_with_chair.jpg"
+import three_with_chair from "/src/images/three_with_chair.jpg"
+import { withPrefix } from "gatsby"
 
 const IndexPage = () => {
   return (
-    <Layout pageTitle='gautham acharya'>
-      <img className="homeimg" src={three_with_chair}/> 
+    <Layout pageTitle='gatuama'>
+      <img className="homeimg" src={withPrefix(three_with_chair)}/> 
     </Layout>
   )
 }

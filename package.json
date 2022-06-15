@@ -12,7 +12,7 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master --repo https://github.com/gacharya/gacharya.github.io.git"
   },
   "dependencies": {
     "@svgr/webpack": "^6.2.1",
