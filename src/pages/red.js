@@ -13,6 +13,12 @@ const PortfolioRed = () => {
   return (
     <Layout pageTitle='portfolio'>
       <PortfolioNav />
+      <p className='abouttext'>----</p>
+      <p className='abouttext'>a series of studies on the transmutation of culture across spatial and temporal dimensions. 
+</p>
+      <p className='abouttext'>iconography from the south asian subcontinent is rendered on sparse white backgrounds, stripped of traditional ornamentation and color</p>
+      <p className='abouttext'>the work has been drawn, digitally altered, and then painted upon, exploring the transition to the new aesthetics paradigms of the information era</p>
+      <p className='abouttext'>----</p>
     <div className="row">
         <div className="col">
           <img src={ganesh_product_shot }/> 
