@@ -9,6 +9,7 @@
   color: #8f8c8b;
   font-family: Dihjauti; 
 }
+
 /* TOP NAVIGATION BAR */
 
 .topnav {
@@ -77,6 +78,14 @@
   flex: 20%;
   max-width: 55%;
   padding: 0 4px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .col {
+    flex: 100%;
+    width: 100%;
+  }
 }
 
 .col img {
